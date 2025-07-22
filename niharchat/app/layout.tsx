@@ -17,6 +17,7 @@ import Sidebar from "./components/Sidebar";
 export const metadata: Metadata = {
   title: "Nihar Marar | Portfolio",
   description: "Nihar Marar's ChatGPT-style portfolio: experience, projects, skills, blog, and more.",
+  metadataBase: new URL("http://localhost:3000"),
   openGraph: {
     title: "Nihar Marar | Portfolio",
     description: "Nihar Marar's ChatGPT-style portfolio: experience, projects, skills, blog, and more.",

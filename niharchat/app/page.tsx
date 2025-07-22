@@ -16,26 +16,6 @@ export default function Home() {
           <ChatBubble
             sender="system"
             message={
-              <div>
-                <h2 className="text-xl font-bold mb-2">Education</h2>
-                <div className="mb-2">
-                  <div className="font-semibold">University of California, Irvine</div>
-                  <div className="text-sm text-gray-300">Master of Computer Science <span className="ml-2">(Aug 2025 – Dec 2026)</span></div>
-                </div>
-                <div className="mb-2">
-                  <div className="font-semibold">University of California, Merced</div>
-                  <div className="text-sm text-gray-300">B.S. Computer Science and Engineering <span className="ml-2">(Aug 2021 – May 2025)</span></div>
-                </div>
-                <div>
-                  <div className="font-semibold">Yonsei University, Seoul, South Korea</div>
-                  <div className="text-sm text-gray-300">Computer Science <span className="ml-2">(Aug 2023 – Dec 2023)</span></div>
-                </div>
-              </div>
-            }
-          />
-          <ChatBubble
-            sender="system"
-            message={
               <>
                 👋 Hi there! Welcome to <span className="font-bold">NiharChat</span> — the interactive portfolio of Nihar Marar.
               </>
@@ -52,6 +32,30 @@ export default function Home() {
                 <span className="font-bold">Nihar Marar</span> is a passionate software engineer and AI enthusiast, currently pursuing a Master of Computer Science at UC Irvine. He has a strong background in full stack development, machine learning, and teaching, with experience at X10e, Avitam Consulting, and Code Ninjas. <br className="hidden sm:inline" />
                 <span className="block mt-2">Feel free to explore my experience, projects, skills, and more using the sidebar!</span>
               </>
+            }
+          />
+          <ChatBubble
+            sender="user"
+            message={<>Where did Nihar study?</>}
+          />
+          <ChatBubble
+            sender="system"
+            message={
+              <div>
+                <h2 className="text-xl font-bold mb-2">Education</h2>
+                <div className="mb-2">
+                  <div className="font-semibold">University of California, Irvine</div>
+                  <div className="text-sm text-gray-300">Master of Computer Science <span className="ml-2">(Aug 2025 – Dec 2026)</span></div>
+                </div>
+                <div className="mb-2">
+                  <div className="font-semibold">University of California, Merced</div>
+                  <div className="text-sm text-gray-300">B.S. Computer Science and Engineering <span className="ml-2">(Aug 2021 – May 2025)</span></div>
+                </div>
+                <div>
+                  <div className="font-semibold">Yonsei University, Seoul, South Korea</div>
+                  <div className="text-sm text-gray-300">Computer Science <span className="ml-2">(Aug 2023 – Dec 2023)</span></div>
+                </div>
+              </div>
             }
           />
           <ChatBubble
