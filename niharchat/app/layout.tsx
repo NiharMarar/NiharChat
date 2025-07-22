@@ -17,44 +17,27 @@ import Sidebar from "./components/Sidebar";
 export const metadata: Metadata = {
   title: "Nihar Marar | Portfolio",
   description: "Nihar Marar's ChatGPT-style portfolio: experience, projects, skills, blog, and more.",
-  metadataBase: new URL("http://localhost:3000"),
+  metadataBase: new URL("https://niharchat.vercel.app"),
   openGraph: {
     title: "Nihar Marar | Portfolio",
     description: "Nihar Marar's ChatGPT-style portfolio: experience, projects, skills, blog, and more.",
-    url: "https://yourdomain.com/",
-    siteName: "Nihar Marar Portfolio",
-    images: [
-      {
-        url: "/vercel.svg", // Replace with your own OG image if available
-        width: 1200,
-        height: 630,
-        alt: "Nihar Marar Portfolio",
-      },
-    ],
-    locale: "en_US",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
     title: "Nihar Marar | Portfolio",
     description: "Nihar Marar's ChatGPT-style portfolio: experience, projects, skills, blog, and more.",
-    images: ["/vercel.svg"], // Replace with your own OG image if available
   },
 };
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+export default function RootLayout({ children }: Readonly<{ children: React.ReactNode; }>) {
   return (
     <html lang="en">
       <head />
       <body className="antialiased bg-[#13151a]">
         <div className="flex min-h-screen">
           <Sidebar />
-          {/* Main content */}
-          <main className="flex-1 p-8 overflow-y-auto bg-[#1a1d23] min-h-screen">
+          <main className="flex-1 p-4 lg:p-8 overflow-y-auto bg-[#1a1d23] min-h-screen lg:ml-0">
             {children}
           </main>
         </div>
