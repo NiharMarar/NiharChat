@@ -53,12 +53,12 @@ export default function Home() {
                   <div className="bg-[#2a2b32] p-3 rounded-lg">
                     <h3 className="font-semibold text-blue-400">Master of Computer Science</h3>
                     <p className="text-sm text-gray-300">University of California, Irvine</p>
-                    <p className="text-xs text-gray-400">2023 - Present</p>
+                    <p className="text-xs text-gray-400">2025 - 2026</p>
                   </div>
                   <div className="bg-[#2a2b32] p-3 rounded-lg">
-                    <h3 className="font-semibold text-blue-400">Bachelor of Science in Computer Science</h3>
-                    <p className="text-sm text-gray-300">University of California, Irvine</p>
-                    <p className="text-xs text-gray-400">2019 - 2023</p>
+                    <h3 className="font-semibold text-blue-400">Bachelor of Science in Computer Science and Engineering</h3>
+                    <p className="text-sm text-gray-300">University of California, Merced</p>
+                    <p className="text-xs text-gray-400">2021 - 2025</p>
                   </div>
                 </div>
               </div>
